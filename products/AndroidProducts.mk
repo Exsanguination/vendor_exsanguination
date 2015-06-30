@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/outqast_n6.mk
+    $(LOCAL_DIR)/exsanguination_n6.mk

@@ -2,17 +2,17 @@
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
 # Inherit common product files
-$(call inherit-product, vendor/outqast/configs/common.mk)
+$(call inherit-product, vendor/exsanguination/configs/common.mk)
 
 # Setup device specific product configuration
-PRODUCT_NAME := outqast_n6
+PRODUCT_NAME := exsanguination_n6
 PRODUCT_DEVICE := shamu
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6
 PRODUCT_MANUFACTURER := motorola
 
 # Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="shamu" BUILD_FINGERPRINT="google/shamu/shamu:5.1/LMY48B/1743759:user/release-keys" PRIVATE_BUILD_DESC="shamu-user 5.1.1_r3 LMY48B 1743759 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="shamu" BUILD_FINGERPRINT="google/shamu/shamu:5.1/LMY48G/1743759:user/release-keys" PRIVATE_BUILD_DESC="shamu-user 5.1.1_r6 LMY48G 1743759 release-keys"
 
 #fmas n6 specific 
 PRODUCT_PROPERTY_OVERRIDES += \
