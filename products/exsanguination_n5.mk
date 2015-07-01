@@ -19,7 +19,7 @@ include vendor/exsanguination/config/common.mk
 $(call inherit-product, device/lge/hammerhead/aosp_hammerhead.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := exsanguination_hammerhead
+PRODUCT_NAME := exsanguination_n5
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE
