@@ -19,7 +19,7 @@ include vendor/exsanguination/config/common.mk
 $(call inherit-product, device/lge/mako/aosp_mako.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := exsanguination_mako
+PRODUCT_NAME := exsanguination_n4
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
