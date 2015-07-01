@@ -1,1 +1,3 @@
 add_lunch_combo exsanguination_n6-userdebug
+add_lunch_combo exsanguination_n5-userdebug
+add_lunch_combo exsanguination_n4-userdebug
